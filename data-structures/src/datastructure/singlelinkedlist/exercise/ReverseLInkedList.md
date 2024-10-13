@@ -1,8 +1,3 @@
-package datastructure.singlelinkedlist.exercise;
-
-import datastructure.singlelinkedlist.LinkedList;
-import datastructure.singlelinkedlist.LinkedList.Node;
-
 public class ReverseLL {
 
     static Node reverse(Node head, Node tail) {

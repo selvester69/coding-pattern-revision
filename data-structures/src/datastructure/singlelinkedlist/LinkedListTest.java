@@ -25,5 +25,8 @@ public class LinkedListTest {
         list.removeFirst();
         System.out.println("list should be 2 -> 3 -> 4 -> 5");
         list.print();
+        System.out.println("list should be 5 -> 4 -> 3 -> 2");
+        list.reverse();
+        list.print();
     }
 }
