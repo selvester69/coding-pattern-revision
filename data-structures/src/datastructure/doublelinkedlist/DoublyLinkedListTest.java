@@ -1,4 +1,4 @@
-package datastructure.dll;
+package datastructure.doublelinkedlist;
 
 public class DoublyLinkedListTest {
 

@@ -1,4 +1,4 @@
-package datastructure.sll;
+package datastructure.singlelinkedlist;
 
 public class LinkedListTest {
 
