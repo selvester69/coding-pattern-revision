@@ -1,4 +1,4 @@
-package datastructure.stacknqueue;
+
 public class Queue{
     class Node{
         int value;
