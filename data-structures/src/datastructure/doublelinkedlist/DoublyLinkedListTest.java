@@ -1,6 +1,5 @@
 package datastructure.doublelinkedlist;
 
-import datastructure.doublelinkedlist.DoublyLinkedList.Node;
 
 public class DoublyLinkedListTest {
 

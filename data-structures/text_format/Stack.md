@@ -1,6 +1,4 @@
-package datastructure.stacknqueue;
 
-//implementation of stack using linkedlist.
 class Stack{
     class Node{
         int value;
@@ -8,7 +6,7 @@ class Stack{
 
         Node(int value){
             this.value = value;
-            this.next = null;
+            this.next  null;
         }
     }
 
