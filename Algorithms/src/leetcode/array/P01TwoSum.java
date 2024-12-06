@@ -1,8 +1,8 @@
-package leetcode;
+package leetcode.array;
 
 import java.util.*;
 
-public class TwoSum {
+public class P01TwoSum {
     public static void main(String[] args) {
         System.out.println("Hello");
     }

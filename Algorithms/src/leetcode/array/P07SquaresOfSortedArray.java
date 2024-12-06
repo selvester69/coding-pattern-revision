@@ -1,13 +1,12 @@
-package leetcode;
+package leetcode.array;
 
 import java.util.Arrays;
 // Follow up: Squaring each element and sorting the new array is very trivial, could you find an O(n) solution using a different approach?
 
-public class SquaresOfSortedArray {
+public class P07SquaresOfSortedArray {
 
     public static void main(String[] args) {
-        int[]res = SquaresOfSortedArray.sortedSquares(new int[]{-4,-1,0,3,10});
-        // int[]res = SquaresOfSortedArray.sortedSquares(new int[]{-5,-3,-2,-1});
+        int[]res = P07SquaresOfSortedArray.sortedSquares(new int[]{-4,-1,0,3,10});
         Arrays.stream(res).forEach(item-> System.out.print(item+" "));
     }
 

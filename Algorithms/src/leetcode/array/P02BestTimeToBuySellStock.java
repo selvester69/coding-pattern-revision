@@ -1,9 +1,9 @@
-package leetcode;
+package leetcode.array;
 
-public class BestTimeToBuySellStock {
+public class P02BestTimeToBuySellStock {
 
     public static void main(String[] args) {
-        int res = BestTimeToBuySellStock.maxProfit(new int[] { 7, 1, 5, 3, 6, 4 });
+        int res = P02BestTimeToBuySellStock.maxProfit(new int[] { 7, 1, 5, 3, 6, 4 });
         System.out.println(res);
     }
 

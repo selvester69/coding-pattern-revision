@@ -1,12 +1,12 @@
-package leetcode;
+package leetcode.array;
 
 import java.util.HashSet;
 import java.util.Set;
 
-public class ContainsDuplicate {
+public class P04ContainsDuplicate {
 
     public static void main(String[] args) {
-        boolean res = ContainsDuplicate.containsDuplicate(new int[] {1,1,1,3,3,4,3,4,2});
+        boolean res = P04ContainsDuplicate.containsDuplicate(new int[] {1,1,1,3,3,4,3,4,2});
         System.out.println(res); 
     }
 

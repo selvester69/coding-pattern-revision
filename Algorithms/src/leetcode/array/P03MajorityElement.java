@@ -1,9 +1,9 @@
-package leetcode;
+package leetcode.array;
 import java.util.*;
-public class MajorityElement {
+public class P03MajorityElement {
 
     public static void main(String[] args) {
-        int res = MajorityElement.majorityElement(new int[] { 2,2,1,1,1,2,2 });
+        int res = P03MajorityElement.majorityElement(new int[] { 2,2,1,1,1,2,2 });
         System.out.println(res);
     }
 

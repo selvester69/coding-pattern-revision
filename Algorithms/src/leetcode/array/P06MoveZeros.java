@@ -1,13 +1,13 @@
-package leetcode;
+package leetcode.array;
 
 import java.util.Arrays;
 
-public class MoveZeros {
+public class P06MoveZeros {
 
     public static void main(String[] args) {
         int nums[] = new int[] { 1, 2, 4, 0, 1, 0, 3, 12 };
         // int nums[] = new int[] { 2,1 };
-        MoveZeros.moveZeroes(nums);
+        P06MoveZeros.moveZeroes(nums);
         Arrays.stream(nums).forEach(item -> System.out.print(item + " "));
     }
 

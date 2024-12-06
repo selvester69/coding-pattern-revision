@@ -1,10 +1,10 @@
-package leetcode;
+package leetcode.array;
 import java.util.*;
-public class InsertInterval {
+public class P08InsertInterval {
 
     public static void main(String[] args) {
         int interval[][] = { { 1, 3 }, { 6, 9 } };
-        int res[][] = InsertInterval.insert(interval, new int[] { 2, 5 });
+        int res[][] = P08InsertInterval.insert(interval, new int[] { 2, 5 });
         for (int i = 0; i < res.length; i++) {
             System.out.println(res[i][0]+" "+res[i][1]);
         }
