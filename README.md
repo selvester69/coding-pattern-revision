@@ -1,5 +1,6 @@
 # Coding Interview Patterns
 
+https://github.com/selvester69/coding-pattern-revision/blob/dfa74b3d1c708f0c76503937c9a9ae12e70fda5b/Algorithms/README-2.md
 ## Coding Interview Patterns
 
 ### 1. Pattern: Two Pointers
