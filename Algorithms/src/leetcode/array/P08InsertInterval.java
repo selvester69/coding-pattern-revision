@@ -30,13 +30,7 @@ public class P08InsertInterval {
             res.add(intervals[i]);
             i++;
         }
-        int[][] arr = new int[res.size()][2];
-        for(int j=0;j<arr.length;j++){
-            arr[j][0] = res.get(j)[0];
-            arr[j][1] = res.get(j)[1];
-        }
-
-        return arr;
+        return res.toArray(new int[res.size()][2]);
     }
 
     
