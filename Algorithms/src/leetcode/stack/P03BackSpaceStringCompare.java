@@ -5,6 +5,7 @@ import java.util.Stack;
 public class P03BackSpaceStringCompare {
 
 	public static void main(String[] args) {
+		
 		System.out.println(P03BackSpaceStringCompare.backspaceCompare("ab#c", "ad#c"));
 		System.out.println(P03BackSpaceStringCompare.backspaceCompare("ab##", "c#d#"));
 		System.out.println(P03BackSpaceStringCompare.backspaceCompare("a#c", "b"));
