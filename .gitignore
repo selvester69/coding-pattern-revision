@@ -2,3 +2,6 @@ PracticeJava/*
 */bin
 */.vscode
 */lib/*.jar
+*/.settings
+*/.project
+*/.classpath
