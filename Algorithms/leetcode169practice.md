@@ -62,19 +62,19 @@ Filters:
 
  - [x] 1. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
 
- - [ ] 2. [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks)
+ - [x] 2. [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks)
 
- - [ ] 3. [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare)
+ - [x] 3. [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare)
 
- - [ ] 4. [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation)
+ - [x] 4. [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation)
 
  - [ ] 5. [Min Stack](https://leetcode.com/problems/min-stack)
 
- - [ ] 6. [Daily Temperatures](https://leetcode.com/problems/daily-temperatures)
+ - [x] 6. [Daily Temperatures](https://leetcode.com/problems/daily-temperatures)
 
  - [ ] 7. [Decode String](https://leetcode.com/problems/decode-string)
 
- - [ ] 8. [Asteroid Collision](https://leetcode.com/problems/asteroid-collision)
+ - [x] 8. [Asteroid Collision](https://leetcode.com/problems/asteroid-collision)
 
  - [ ] 9. [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii)
 
@@ -91,27 +91,27 @@ Filters:
 ---
 ## Linked List
 
- - [ ] 1. [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)
+ - [x] 1. [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)
 
- - [ ] 2. [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle)
+ - [x] 2. [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle)
 
- - [ ] 3. [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)
+ - [x] 3. [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)
 
- - [ ] 4. [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list)
+ - [x] 4. [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list)
 
- - [ ] 5. [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list)
+ - [x] 5. [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list)
 
  - [ ] 6. [LRU Cache](https://leetcode.com/problems/lru-cache)
 
- - [ ] 7. [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)
+ - [x] 7. [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)
 
- - [ ] 8. [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs)
+ - [-] 8. [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs)
 
- - [ ] 9. [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list)
+ - [x] 9. [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list)
 
- - [ ] 10. [Add Two Numbers](https://leetcode.com/problems/add-two-numbers)
+ - [x] 10. [Add Two Numbers](https://leetcode.com/problems/add-two-numbers)
 
- - [ ] 11. [Sort List](https://leetcode.com/problems/sort-list)
+ - [x] 11. [Sort List](https://leetcode.com/problems/sort-list)
 
  - [ ] 12. [Reorder List](https://leetcode.com/problems/reorder-list)
 
@@ -122,7 +122,7 @@ Filters:
 ---
 ## String
 
- - [ ] 1. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome)
+ - [x] 1. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome)
 
  - [ ] 2. [Valid Anagram](https://leetcode.com/problems/valid-anagram)
 
