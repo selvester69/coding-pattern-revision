@@ -2,9 +2,9 @@ package com.practice.datastructure.linkedlist;
 
 public class LinkedList {
 
-    Node head;
-    Node tail;
-    int length;
+    public Node head;
+    public Node tail;
+    public int length;
 
     public LinkedList(int val) {
         Node newNode = new Node(val);
@@ -17,6 +17,7 @@ public class LinkedList {
         Node temp = this.head;
         while (temp != null) {
             System.out.print(temp.value + "->");
+            temp = temp.next;
         }
         System.out.println("null");
     }
@@ -170,10 +171,14 @@ public class LinkedList {
         if(this.head==null) return;
         if(this.length==1) return;
         Node temp = this.head;
+        this.head = this.tail;
+        this.tail = temp;
         Node prev = null;
         while(temp!=null){
             Node next = temp.next;
-            
+            temp.next = prev;
+            prev = temp;
+            temp = next;
         }
     }
 
