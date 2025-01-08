@@ -1,9 +1,9 @@
 package com.practice.datastructure.doublyLinkedList;
 
 public class DoublyLinkedList {
-    Node head;
-    Node tail;
-    int length;
+    protected Node head;
+    protected Node tail;
+    protected int length;
 
     public DoublyLinkedList(int value) {
         Node newNode = new Node(value);
@@ -178,5 +178,7 @@ public class DoublyLinkedList {
             return temp;
         }
     }
+
+    
 
 }
