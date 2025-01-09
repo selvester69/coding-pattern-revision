@@ -38,7 +38,19 @@ public class SortStack extends Stack<Integer> {
     }
 
     private static void sortStack(Stack<Integer> stack) {
-        
+        if (stack.isEmpty())
+            return;
+        Stack<Integer> sorted = new Stack<>();
+        while (!stack.isEmpty()) {
+            int top = stack.pop();
+            while(!sorted.isEmpty()&& sorted.peek()>top){
+                stack.push(sorted.pop());
+            }
+            sorted.push(top);
+        }
+        while (!sorted.isEmpty()) {
+            stack.push(sorted.pop());
+        }
     }
 
 }
