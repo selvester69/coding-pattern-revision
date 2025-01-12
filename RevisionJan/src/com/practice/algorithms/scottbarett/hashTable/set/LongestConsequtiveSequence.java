@@ -54,6 +54,7 @@ public class LongestConsequtiveSequence {
             return 1;
         int maxCount = 0;
         for (int i : nums) {
+            if(!set.contains(i-1)){
             int count = 0;
             while (set.contains(i++)) {
                 count++;
