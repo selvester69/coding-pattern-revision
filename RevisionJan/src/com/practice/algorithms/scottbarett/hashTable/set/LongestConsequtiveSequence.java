@@ -55,12 +55,12 @@ public class LongestConsequtiveSequence {
         int maxCount = 0;
         for (int i : nums) {
             if(!set.contains(i-1)){
-            int count = 0;
-            while (set.contains(i++)) {
-                count++;
+                int count = 0;
+                while (set.contains(i++)) {
+                    count++;
+                }
+                maxCount = Math.max(maxCount, count);
             }
-            maxCount = Math.max(maxCount, count);
-        }
         }
         return maxCount;
     }
