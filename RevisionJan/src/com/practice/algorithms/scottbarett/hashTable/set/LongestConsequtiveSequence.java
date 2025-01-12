@@ -61,6 +61,7 @@ public class LongestConsequtiveSequence {
             }
             maxCount = Math.max(maxCount, count);
         }
+        }
         return maxCount;
     }
 }
