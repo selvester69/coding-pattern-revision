@@ -9,6 +9,14 @@ public class Queue {
         temp = new Stack<>();
     }
 
+    public int peek() {
+        return stack.peek();
+    }
+
+    public boolean isEmpty() {
+        return stack.isEmpty();
+    }
+
     public void enqueue(int value) {
         while (!stack.isEmpty()) {
             temp.push(stack.pop());
@@ -17,14 +25,6 @@ public class Queue {
         while (!temp.isEmpty()) {
             stack.push(temp.pop());
         }
-    }
-
-    public int peek() {
-        return stack.peek();
-    }
-
-    public boolean isEmpty() {
-        return stack.isEmpty();
     }
 
     public Integer dequeue() {
