@@ -1,29 +1,33 @@
-Progresss track
+# Progress Tracker
 
-#DATASTRUCTURES
+## Data Structures
 
-LinkedList
-DoublyLinkedlist
-Stack
-Queue
-Trees
-HashTable
-Graphs
-Heap
+- Linked List
+- Doubly Linked List
+- Stack
+- Queue
+- Trees
+- Hash Table
+- Graphs
+- Heap
 
+## Algorithms
 
-#ALGORITHMS
+- **Linked List**
+- **Doubly Linked List**
+- **Stack**
+- **Queues**
+- **Hash Table** (Map, Set)
+- **Heap**
+- **Recursive Binary Tree**
+- **Basic Sorting Algorithms**
+  - Bubble Sort
+  - Selection Sort
+  - Insertion Sort
+- **Advanced Sorting Algorithms**
+  - Merge Sort
+  - Quick Sort
+- **Array Operations**
 
-LinkedList
-DoublyLinkedList
-Stack
-Queues
-HashTable - map,set
-Heap
-RecursiveBinaryTree
-Basic Sort - (bubble, selection, insertion)
-MergeSort
-QuickSort
-Array
-
-## Graph questions not available in scottbarett
+### Note:
+Graph-related questions are not available in Scott Barrett's resources.
