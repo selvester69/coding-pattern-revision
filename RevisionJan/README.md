@@ -8,7 +8,7 @@
 - [x] Queue
 - [x] Trees
 - [x] Hash Table
-- [ ] Graphs
+- [x] Graphs
 - [ ] Heap
 
 ## Algorithms
