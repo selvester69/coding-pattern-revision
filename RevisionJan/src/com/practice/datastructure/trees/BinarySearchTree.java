@@ -1,7 +1,7 @@
 package com.practice.datastructure.trees;
 
 public class BinarySearchTree {
-    Node root;
+    protected Node root;
 
     public BinarySearchTree() {
     }
