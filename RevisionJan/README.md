@@ -9,7 +9,7 @@
 - [x] Trees
 - [x] Hash Table
 - [x] Graphs
-- [ ] Heap
+- [x] Heap
 
 ## Algorithms
 

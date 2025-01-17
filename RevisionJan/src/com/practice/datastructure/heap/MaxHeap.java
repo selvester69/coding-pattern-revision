@@ -47,7 +47,7 @@ public class MaxHeap {
         if (this.heap.size() == 0)
             return null;
         if (this.heap.size() == 1)
-            return this.heap.get(0);
+            return this.heap.remove(0);
         int val = this.heap.get(0);
         this.heap.set(0, this.heap.remove(this.heap.size() - 1));
         this.sinkDown(0);
@@ -55,16 +55,19 @@ public class MaxHeap {
     }
 
     private void sinkDown(int index) {
-        int maxIndex = 0;
+        int maxIndex = index;
         while (true) {
-            int left = this.leftChild(index);
-            int right = this.rightChild(index);
-            if (left < this.heap.size() && this.heap.get(index) < this.heap.get(left)) {
-                maxIndex = left;
+            int leftIndex = leftChild(index);
+            int rightIndex = rightChild(index);
+
+            if (leftIndex < heap.size() && heap.get(leftIndex) > heap.get(maxIndex)) {
+                maxIndex = leftIndex;
             }
-            if (right < this.heap.size() && this.heap.get(index) < this.heap.get(right)) {
-                maxIndex = left;
+
+            if (rightIndex < heap.size() && heap.get(rightIndex) > heap.get(maxIndex)) {
+                maxIndex = rightIndex;
             }
+
             if (maxIndex != index) {
                 swap(index, maxIndex);
                 index = maxIndex;
@@ -72,6 +75,7 @@ public class MaxHeap {
                 return;
             }
         }
+
     }
 
 }

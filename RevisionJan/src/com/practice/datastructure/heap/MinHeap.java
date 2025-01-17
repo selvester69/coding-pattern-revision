@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MinHeap {
-    private List<Integer> heap;
+    protected List<Integer> heap;
 
     public MinHeap() {
         this.heap = new ArrayList<>();
