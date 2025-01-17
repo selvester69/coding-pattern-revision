@@ -49,4 +49,5 @@ public class BinarySearchTree {
         return false;
     }
 
+    //delete operations are only supported by recursion
 }
