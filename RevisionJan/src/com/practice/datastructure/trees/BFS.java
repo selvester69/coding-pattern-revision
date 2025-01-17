@@ -1,12 +1,9 @@
-package com.practice.algorithms.scottbarett.trees;
+package com.practice.datastructure.trees;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
-
-import com.practice.datastructure.trees.BinarySearchTree;
-import com.practice.datastructure.trees.Node;
 
 public class BFS extends BinarySearchTree {
 
