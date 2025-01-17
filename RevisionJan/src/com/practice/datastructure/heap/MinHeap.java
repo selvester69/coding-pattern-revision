@@ -57,10 +57,10 @@ public class MinHeap {
         while (true) {
             int left = leftChild(index);
             int right = rightChild(index);
-            if (left < this.heap.size() && this.heap.get(index) > this.heap.get(left)) {
+            if (left < this.heap.size() && this.heap.get(left) < this.heap.get(minIndex)) {
                 minIndex = left;
             }
-            if (right < this.heap.size() && this.heap.get(index) > this.heap.get(right)) {
+            if (right < this.heap.size() && this.heap.get(right) < this.heap.get(minIndex)) {
                 minIndex = right;
             }
             if (index != minIndex) {
