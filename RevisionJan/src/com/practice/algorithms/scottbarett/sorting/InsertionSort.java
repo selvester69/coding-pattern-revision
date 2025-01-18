@@ -27,9 +27,9 @@ public class InsertionSort {
             int temp = nums[i];
             while (j >= 0 && temp<nums[j]) {
                 nums[j + 1] = nums[j];
-                nums[j] = temp;
                 j--;
             }
+            nums[j+1] = temp;
         }
     }
 
