@@ -5,7 +5,7 @@ import com.practice.algorithms.scottbarett.stackQueue.Stack;
 public class P04ReversePolishNotation {
 
     // basic brute force approach is to use stack and calculate the result.
-    public static int evalRPNApproach(String[] tokens) {
+    public static int evalRPNApproach_1(String[] tokens) {
         Stack<Integer> stack = new Stack<>();
         int i = 0;
         String operands = "+-*/";
@@ -43,9 +43,25 @@ public class P04ReversePolishNotation {
     }
 
     // efficient approach is to optimize O(N) space to use use O(1) to use 2 pointer
-    // public int evalRPNApproach_2(String[] tokens) {
-
-    // }
+    public static int evalRPNApproach(String[] tokens) {
+        int i = 0;
+        int lastNum = -1;
+        String operands = "+-*/";
+        int ans = 0, op1 = 0, op2 = 0;
+        while (i < tokens.length) {
+            if (operands.contains(tokens[i])) {
+                op1 = Integer.valueOf(tokens[lastNum]);
+                op2 = Integer.valueOf(tokens[lastNum - 1]);
+                ans = calculate(op1, op2, tokens[i]);
+                tokens[--lastNum] = Integer.toString(ans);
+            } else {
+                lastNum++;
+                tokens[lastNum] = tokens[i];
+            }
+            i++;
+        }
+        return Integer.valueOf(tokens[lastNum]);
+    }
 
     public static void main(String[] args) {
         // Test cases
@@ -58,7 +74,7 @@ public class P04ReversePolishNotation {
                                                                                                                  // = 6
         System.out.println("Test Case 3: "
                 + (evalRPNApproach(new String[] { "10", "6", "9", "3", "/", "-", "*", "11", "+" }) == 41)); // Complex
-                                                                                                           // case
+                                                                                                            // case
         System.out.println("Test Case 4: " + (evalRPNApproach(new String[] { "0", "3", "/" }) == 0)); // 0 divided by 3
                                                                                                       // = 0
         System.out.println("Test Case 5: " + (evalRPNApproach(new String[] { "3", "-4", "+" }) == -1)); // 3 + (-4) = -1
