@@ -2,7 +2,7 @@ package com.practice.algorithms.crackingCodingInterview;
 
 import java.util.Arrays;
 
-public class P02ReverseString {
+public class P002ReverseString {
 
     public static void reverseString(char[] s) {
         int begin = 0, end = s.length - 1;

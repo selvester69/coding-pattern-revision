@@ -2,7 +2,7 @@ package com.practice.algorithms.crackingCodingInterview;
 
 import java.util.Arrays;
 
-public class P03LongestCommonPrefix {
+public class P003LongestCommonPrefix {
 
     // using sorting T=> O(m*n*logn) S=> O(m)
     // sort the String array and compare first and last to find prefix

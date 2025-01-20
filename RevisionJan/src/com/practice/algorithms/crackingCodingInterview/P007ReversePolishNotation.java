@@ -2,7 +2,7 @@ package com.practice.algorithms.crackingCodingInterview;
 
 import com.practice.algorithms.scottbarett.stackQueue.Stack;
 
-public class P04ReversePolishNotation {
+public class P007ReversePolishNotation {
 
     // basic brute force approach is to use stack and calculate the result.
     public static int evalRPNApproach_1(String[] tokens) {

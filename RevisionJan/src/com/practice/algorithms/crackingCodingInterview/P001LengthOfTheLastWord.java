@@ -1,6 +1,6 @@
 package com.practice.algorithms.crackingCodingInterview;
 
-public class P01LengthOfTheLastWord {
+public class P001LengthOfTheLastWord {
 
     public static int lengthOfLastWord(String s) {
         if (s == null)
