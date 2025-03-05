@@ -2,9 +2,8 @@ package com.practice.algorithms.graph;
 
 import java.util.Arrays;
 import java.util.Comparator;
-import java.util.List;
 
-public class DisjointSetForCycleDetection {
+public class DisjointSetForTotalMSTCost {
 
     /**
      * makeset [create set with 1 element ]
