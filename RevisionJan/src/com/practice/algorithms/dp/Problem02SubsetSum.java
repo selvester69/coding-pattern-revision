@@ -1,8 +1,6 @@
 package com.practice.algorithms.dp;
 
-import java.util.Arrays;
-
-public class Problem2SubsetSum {
+public class Problem02SubsetSum {
 
     public boolean subsetSum_recursive(int[] arr, int Sum) {
         int n = arr.length;
@@ -67,7 +65,7 @@ public class Problem2SubsetSum {
     }
 
     public static void main(String[] args) {
-        Problem2SubsetSum obj = new Problem2SubsetSum();
+        Problem02SubsetSum obj = new Problem02SubsetSum();
         System.out.println(obj.subsetSum_recursive(new int[] { 3, 34, 4, 12, 5, 2 },
         9));
         System.out.println(obj.subsetSum_recursive(new int[] { 3, 34, 4, 12, 5, 2 },

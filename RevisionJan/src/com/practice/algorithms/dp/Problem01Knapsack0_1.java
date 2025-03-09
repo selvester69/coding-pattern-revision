@@ -2,7 +2,7 @@ package com.practice.algorithms.dp;
 
 import java.util.Arrays;
 
-public class Problem1Knapsack0_1 {
+public class Problem01Knapsack0_1 {
 
     public int maxProfit_recursive(int val[], int wt[], int W) {
         int n = wt.length;
@@ -68,7 +68,7 @@ public class Problem1Knapsack0_1 {
     }
 
     public static void main(String[] args) {
-        Problem1Knapsack0_1 obj = new Problem1Knapsack0_1();
+        Problem01Knapsack0_1 obj = new Problem01Knapsack0_1();
         int W = 4, val[] = { 1, 2, 3 }, weight[] = { 4, 5, 1 };
         System.out.println(obj.maxProfit_recursive(val, weight, W));
         System.out.println(obj.maxProfit_memo(val, weight, W));
