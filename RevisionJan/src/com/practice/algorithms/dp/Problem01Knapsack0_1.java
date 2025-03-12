@@ -26,7 +26,9 @@ public class Problem01Knapsack0_1 {
         for (int i = 0; i < dp.length; i++) {
             Arrays.fill(dp[i], -1);
         }
-        return recursive_memo(val, wt, W, n, dp);
+        int res =  recursive_memo(val, wt, W, n, dp);
+        printDP(dp);
+        return res;
     }
 
     public int recursive_memo(int[] val, int[] wt, int W, int n, int[][] dp) {
@@ -48,9 +50,9 @@ public class Problem01Knapsack0_1 {
     public int topdownDP(int val[], int wt[], int W) {
         int n = val.length;
         int[][] dp = new int[n + 1][W + 1];
-        for (int i = 0; i < dp.length; i++) {
-            Arrays.fill(dp[i], -1);
-        }
+        // for (int i = 0; i < dp.length; i++) {
+        //     Arrays.fill(dp[i], -1);
+        // }
         for (int i = 0; i <= n; i++) {
             for (int j = 0; j <= W; j++) {
                 if (i == 0 || j == 0) {
@@ -64,6 +66,8 @@ public class Problem01Knapsack0_1 {
                 }
             }
         }
+        System.out.println("Top down dp");
+        printDP(dp);
         return dp[n][W];
     }
 
@@ -73,6 +77,15 @@ public class Problem01Knapsack0_1 {
         System.out.println(obj.maxProfit_recursive(val, weight, W));
         System.out.println(obj.maxProfit_memo(val, weight, W));
         System.out.println(obj.topdownDP(val, weight, W));
+    }
+
+    public void printDP(int[][]dp){
+        for(int i=0;i<dp.length;i++){
+            for(int j=0;j<dp[i].length;j++){
+                System.out.print(dp[i][j]+"  ");
+            }
+            System.out.println();
+        }
     }
 
 }
