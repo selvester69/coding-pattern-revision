@@ -2,7 +2,7 @@ package com.practice.algorithms.stack;
 
 import java.util.Arrays;
 
-public class P02NearestGreaterToRight2 {
+public class P02NearestGreaterToRightLoop {
 
     // this is a brute force solution using 2 loops 
     // to handle out of bound run loop 2*n times and mod the value with length
@@ -23,7 +23,7 @@ public class P02NearestGreaterToRight2 {
     }
 
     public static void main(String[] args) {
-        P02NearestGreaterToRight2 obj = new P02NearestGreaterToRight2();
+        P02NearestGreaterToRightLoop obj = new P02NearestGreaterToRightLoop();
         System.out.println(Arrays.toString(obj.nextGreaterElements(new int[] {1,2,1})));
         System.out.println(Arrays.toString(obj.nextGreaterElements(new int[] {1,2,3,4,3})));
     }
