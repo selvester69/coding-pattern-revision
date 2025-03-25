@@ -1,8 +1,5 @@
 package com.practice.algorithms.binarySearch;
 
-import java.util.Arrays;
-import java.util.Collections;
-
 public class P02BinarySearchOnReverseSortedArray {
 
     public static int search(int[] nums, int target) {
