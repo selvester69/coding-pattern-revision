@@ -1,7 +1,5 @@
 package com.practice.algorithms.heap;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.PriorityQueue;
 
 public class P04KClosestNumbers {
@@ -46,8 +44,8 @@ public class P04KClosestNumbers {
         for (int i = 0; i < nums.length; i++) {
             diff[i] = Math.abs(nums[i] - x);
         }
-        List<Integer> res = new ArrayList<>();
         // find k smallest numbers in diff array. and add nums[index] to list.
+        // List<Integer> res = new ArrayList<>();
         for (int i = 0; i < diff.length; i++) {
 
         }
