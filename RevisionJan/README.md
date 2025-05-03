@@ -18,7 +18,7 @@
 - [x] **Stack**
 - [x] **Queues**
 - [x] **Hash Table** (Map, Set)
-- [ ] **Heap**
+- [x] **Heap**
 - [ ] **Recursive Binary Tree**
 - [ ] **Basic Sorting Algorithms**
   - [ ] Bubble Sort
@@ -31,3 +31,14 @@
 
 ### Note:
 Graph-related questions are not available in Scott Barrett's resources.
+
+## Aditya Verma playlist
+
+- [x] Recursion
+- [ ] BackTrack
+- [ ] DP
+- [x] Stack
+- [x] BInarySearch
+- [x] Sliding Window
+- [ ] Graphs
+- [x] Heap
