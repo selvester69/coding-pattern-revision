@@ -86,17 +86,32 @@ public class P01NearestGreatertoRight {
         }
         return ans;
     }
+    
+    public int[] test(int[] nums) {
+        int[] ans = new int[nums.length];
+        int index = ans.length - 1;
+        Stack<Integer> st = new Stack<>();
+        for (int i = nums.length - 1; i >= 0; i--) {
+            while (!st.isEmpty() && st.peek() <= nums[i]) {
+                st.pop();
+            }
+            ans[i] = st.isEmpty() ? -1 : st.peek();
+            st.push(nums[i]);
+        }
+        return ans;
+    }
 
     public static void main(String[] args) {
         P01NearestGreatertoRight obj = new P01NearestGreatertoRight();
-        System.out.println(
-                Arrays.toString(obj.nextGreaterElement_leetcode(new int[] { 4, 1, 2 }, new int[] { 1, 3, 4, 2 })));
-        System.out.println(
-                Arrays.toString(obj.nextGreaterElement_leetcode(new int[] { 2,4 }, new int[] {1,2,3,4 })));
+        // System.out.println(
+        //         Arrays.toString(obj.nextGreaterElement_leetcode(new int[] { 4, 1, 2 }, new int[] { 1, 3, 4, 2 })));
+        // System.out.println(
+        //         Arrays.toString(obj.nextGreaterElement_leetcode(new int[] { 2,4 }, new int[] {1,2,3,4 })));
 
         //System.out.println(Arrays.toString(obj.NGR_geeks_bruteForce(new int[] { 1, 3, 4, 2 })));
         //System.out.println(Arrays.toString(obj.NGR_geeks_optimized(new int[] { 1, 3, 4, 2 })));
-        //System.out.println(Arrays.toString(obj.NGR_geeks_optimized_readable(new int[] { 1, 3, 4, 2 })));
+        System.out.println(Arrays.toString(obj.NGR_geeks_optimized_readable(new int[] { 1, 3, 4, 2 })));
+        System.out.println(Arrays.toString(obj.test(new int[] { 1, 3, 4, 2 })));
         // output: [-1,3,-1]
     }
 }
